@@ -1,0 +1,7 @@
+modulo richiesto: cryptography (pip install cryptography)
+
+Passaggi:
+
+-Generazione chiavi privata/pubblica in formato pem(file: generazione_chiavi.py)
+-Criptazione con chiave pubblica del messaggio di testo contenuto all'interno del file.txt (file: criptazione_con_chiave_pubblica.py)
+-Decriptazione con chiave privata del messaggio di testo contenuto all'interno del file.txt (file: decriptazione_con_chiave_privata.py)  

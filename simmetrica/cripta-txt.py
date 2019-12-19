@@ -6,6 +6,7 @@ output_file = 'test-criptato.txt'
 with open(input_file, 'rb') as f:
     data = f.read()
 
+
 fernet = Fernet(key)
 encrypted = fernet.encrypt(data)
 
